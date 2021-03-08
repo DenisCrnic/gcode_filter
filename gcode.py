@@ -7,7 +7,7 @@ def listToString(line_list):
     return line_str # Return final line_str  
 
 # Function which writes a line to file, if input line is list instead
-# of string it converts it to string. Function appends a new line
+# of string it converts it to string. Function appends a new line character
 # to the end of each line
 def writeLine(f, line):
     if type(line) == list:
